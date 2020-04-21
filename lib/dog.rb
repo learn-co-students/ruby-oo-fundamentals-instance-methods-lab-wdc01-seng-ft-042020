@@ -6,4 +6,13 @@ class Dog
     def sit
         puts "The Dog is sitting"
     end
-end
+
+    def name=(dogs_name)
+        @nomen = dogs_name
+    end
+
+    def name
+        @nomen
+    end
+
+end     
